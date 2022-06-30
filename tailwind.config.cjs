@@ -15,8 +15,7 @@ const config = {
           secondary: "#fc7753",
           accent: "#333333",
           neutral: "#1a1a1a",
-          "base-100": "#565554",
-
+          "base-100": "#fff",
           "--rounded-btn": "0"
         }
       }

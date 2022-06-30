@@ -5,9 +5,13 @@
   }
 </script>
 
-<button class="btn" on:click={increment}>
+<button class="btn btn-primary btn-outline" on:click={increment}>
   Clicks: {count}
 </button>
 
 <style>
+.btn-outline:hover {
+  @apply bg-primary;
+  @apply text-base-100;
+}
 </style>
