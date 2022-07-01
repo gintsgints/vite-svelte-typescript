@@ -8,6 +8,7 @@ const config = {
   plugins: [require("daisyui")],
 
   daisyui:{
+    styled: false,
     themes: [
       {
         mytheme: {
@@ -16,7 +17,8 @@ const config = {
           accent: "#333333",
           neutral: "#1a1a1a",
           "base-100": "#fff",
-          "--rounded-btn": "0"
+          "--rounded-btn": "0",
+          "--btn-text-case": "uppercase"
         }
       }
     ]

@@ -1,0 +1,35 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply uppercase;
+    @apply tracking-wider;
+}
+
+.btn-outline {
+    @apply bg-white;
+    border-width: 2px;
+    @apply text-primary;
+    @apply border-primary;
+}
+
+.btn-outline:hover {
+    @apply bg-primary;
+    @apply text-base-100;
+}
+
+.select {
+    border-width: 1px;
+    @apply: active: border-primary;
+}
+
+.input-outline {
+    border-width: 1px;
+    &:hover,
+    &:focus {
+        @apply: active: border-primary;
+        @apply: active: border-1;
+    }
+}
