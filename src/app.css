@@ -20,16 +20,23 @@
     @apply text-base-100;
 }
 
-.select {
+.input {
     border-width: 1px;
-    @apply: active: border-primary;
+    @apply border-black;
 }
 
-.input-outline {
-    border-width: 1px;
-    &:hover,
-    &:focus {
-        @apply: active: border-primary;
-        @apply: active: border-1;
-    }
+.input:hover,
+.input:focus {
+    @apply outline-primary;
 }
+
+select {
+    border-width: 1px;
+    @apply border-black;
+}
+
+select:hover,
+select:focus {
+    @apply outline-primary;
+}
+

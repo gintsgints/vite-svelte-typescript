@@ -7,7 +7,7 @@
   <select
     name=""
     id=""
-    class="select w-full max-w-xs p-2"
+    class="select w-full max-w-xs"
   >
     <option disabled selected>Select vehicle make </option>
     <option value="audi">Audi</option>
@@ -19,7 +19,8 @@
     type="text"
     name=""
     id=""
-    class="input input-outline w-full border-black active:border-primary"
+    placeholder="Enter text here"
+    class="input w-full"
   />
 </main>
 
